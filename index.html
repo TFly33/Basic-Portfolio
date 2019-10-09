@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me Page</title>
-</head>
-<body>
-  <div> 
-       <h1>Tommy Flynn</h1>
-  </div>
-  <div>
-        <h2>About</h2>
-        <h2>Portfolio</h2>
-        <h2>Contact</h2>
-  </div>
 
-  <div>
-        <h3>About Me</h3>
-        <p>
+    <title>About Me Page</title>
+   <!--Connecting my CSS Here-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class= "myname">
+  <!--Special CSS for the header. 
+    But should this be considered a header?-->
+  <header>
+       Tommy Flynn
+      </header>
+    </div>
+
+<div class=container>
+  <!--I'm going to make a container to include the "box" in. 
+    This will allow gray space behind everything. 
+    The container goes below the header section-->
+
+  <div class= "box">
+        <h1 id= "about"> About Me </h1>
+        <p id=paragraph1> 
+        <img id= "tomted" src="assets/images/TomTed.png" alt="Picture of Tommy">
             I'm a 31 year old living in Center City, Philadelphia with my wife and two dogs. 
             I grew up in Chicago, Frankfurt Germany, and Northern Virginia. 
             I played Division 1 baseball at Mount Saint Mary's University in Emmitsburg, Maryland from 
@@ -29,13 +35,23 @@
             I also have some startup experience. I was the first hire at a youth sports sponsorship startup in Philly and 
             previously co-founded a peer-to-peer editing platform (it no longer exists...turns out people don't like things edited). 
         </p>
-        <p>
+        <p id=paragraph2>
             I'm also an obsessive hobbyist. I am a part-time professional poker player, a Class-A chess player 
             (<a href="https://www.moron2master.com">follow my journey to master here!</a>), an amateur card magician, and occasionally a writer 
-            (<a href="https://medium.com/@tfly.flynn">here are some articles from the past</a>). 
+            (<a href="https://medium.com/@tfly.flynn">here are some articles from the past</a>). I'm always looking to meet new people and experience new things. 
+
 
         </p>
 
   </div>
+
+  <div>
+      <ul>
+        <l id="About"> About </l> 
+        <l>Portfolio</l>
+        <l>Contact</l>  
+      </ul>
+  </div>
+</div>
 </body>
 </html>

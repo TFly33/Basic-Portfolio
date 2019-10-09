@@ -1,0 +1,58 @@
+.myname
+{
+    font-size: 25px;
+    background:teal;
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    
+}
+
+
+.container
+{
+
+background:lightgray;
+margin-top:-20px;
+margin-left: -10px;
+
+
+
+}
+.box
+{
+background-color:white;
+margin-left:150px;
+margin-right: 150px;
+margin-top: 50px;
+margin-bottom: 50px;
+float:left;
+text-align:center;
+
+
+
+}
+
+
+
+
+
+
+#About {
+width: 150px;
+height: 150px;
+background: green;
+border: 2px
+
+}
+
+#tomted
+{
+border-radius:8px;
+width: 200px;
+}
