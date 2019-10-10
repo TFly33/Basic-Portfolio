@@ -166,5 +166,26 @@ padding: 3px;
 {
 padding:40px;
 
+}
+
+.extrawhite
+{
+width: 960px;
+height: 70px;
+background-color: white;
+margin-left: -20px;
+margin-top: -15px;
+
+
+}
+.submit
+{
+font-size: 20px;
+padding: 5px;
+margin-left: 20px;
+margin-right: 860px;
+margin-top: 25px;
+color:white;
+background-color: teal;
 
 }
