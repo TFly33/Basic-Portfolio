@@ -46,7 +46,7 @@ margin-right: -10 px;
 {
 background-color:#ffffff;
 width: 960px;
-height: 480px;
+height: 420px;
 margin-left: 175px;
 margin-right: 175px;
 margin-top: 50px;
@@ -253,6 +253,7 @@ background-color: teal;
     padding-top: -5px;
     padding-bottom: -5px;
     white-space:nowrap;
+
   }
   .image4
 {
@@ -278,6 +279,7 @@ background-color: teal;
     padding-right: 60px;
     padding-top: -5px;
     padding-bottom: -5px;
+    white-space: nowrap;
   }
   .image5
   {
@@ -295,7 +297,7 @@ background-color: teal;
     {
       position: absolute;
       bottom: -20px;
-      right: 10px;
+      position:center;
       width: 78px;
       background-color: teal;
       color: white;
@@ -304,3 +306,26 @@ background-color: teal;
       padding-top: -5px;
       padding-bottom: -5px;
     }
+
+    .rutgers
+    {
+        margin-left: -25px;
+    }
+    .rock
+    {
+        margin-left: -25px;
+    }
+
+.specialbox
+{
+background-color:#ffffff;
+width: 960px;
+height: 680px;
+margin-left: 175px;
+margin-right: 175px;
+margin-top: 50px;
+margin-bottom: -70px;
+padding-bottom: 0px;
+float:left;
+text-align:center;
+}
